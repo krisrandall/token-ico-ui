@@ -47,7 +47,7 @@ Run the "Ganache" GUI
 
 ## Where is the code ?
 
-The smart contract code is in [`contracts/Token.js`](contracts/Token.js)
+The smart contract code is in [`contracts/Token.sol`](contracts/Token.sol)
 
 The JS/React DApp code that connects to the contract is in [`src/App.js`](src/App.js)
 
