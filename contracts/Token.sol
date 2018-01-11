@@ -49,12 +49,12 @@ contract Token {
 
     function Token() public {
         _owner = msg.sender;
-        name = "Union bank";
-        symbol = "UB";
+        name = "Demo Token";
+        symbol = "DT";
         totalSupply = 10000;
         decimals = 2;
 
-        start = 1517443200;
+        start = 1514764800;  // 1 Jan 2018
         end = start + 30 days;
 
         //On deploy, i set all the tokens to me :)
